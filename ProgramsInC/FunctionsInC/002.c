@@ -1,7 +1,7 @@
-###### PROGRAMA PARA ORDENAR ITENS EM UM VETOR UTILIZANDO O ALGORITMO INSERTION SORT.</br>
+/*
+	PROGRAMA PARA ORDENAR ITENS EM UM VETOR UTILIZANDO O ALGORITMO INSERTION SORT.
+*/
 
-
-~~~c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -42,4 +42,3 @@ void ordemCresc(int array[], int n) {
 	return;
 }
 
-~~~
