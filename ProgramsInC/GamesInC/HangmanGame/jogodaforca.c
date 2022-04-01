@@ -68,6 +68,21 @@ int main(void) {
 	int tolower (int c);
 	int isupper (int c);
 
+	/*
+	
+	int x;
+	char palavraCorreta[13], palavrasForca[6][13]={"permanganato", "remanescente", "determinacao", "independente", "procrastinar", "extrovertido"};
+	
+	srand(time(NULL));
+	x = rand() % 6;
+	
+	printf("x = %d", x);
+	
+	strcpy(palavraCorreta, palavrasForca[x]);
+	printf("palavra = %s ", palavraCorreta);
+	
+	*/
+
 	strcpy(palavraCorreta, sortPalavra("palavrasForca.txt", palavraSortida));
 	strcpy(arrayAux, palavraCorreta);
 	
